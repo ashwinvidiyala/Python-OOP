@@ -40,5 +40,8 @@ chocolate.display_all()
 print "Specs after adding tax: "
 print chocolate.add_tax(15)
 
+print "Specs after selling: "
+chocolate.sell().display_all()
+
 print "Specs after returning: "
 chocolate.return_item('defective').display_all()
