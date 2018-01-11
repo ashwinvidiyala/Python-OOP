@@ -46,7 +46,7 @@ class CallCenter(object):
             print "Phone Number:", value[2]
 
 call1 = Call(1, 'Ash', 123, 1234, 'thanks')
-# call1.display()
+call1.display()
 call_center = CallCenter()
 call_center.add(call1)
 call_center.info()
