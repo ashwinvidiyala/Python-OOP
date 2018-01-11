@@ -18,7 +18,7 @@ class Car(object):
         print "Tax: {}%".format(int(self.tax * 100))
 
 print "Car 1: "
-car1 = Car(2000, 35, 'Full', 15)
+car1 = Car(2000, 35, 'Full', 15)]
 print "Car 2: "
 car2 = Car(2000, 5, 'Not Full', 105)
 print "Car 3: "
